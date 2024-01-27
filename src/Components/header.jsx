@@ -15,8 +15,8 @@ const PageHeader = () => {
                     <img src={cart} alt=""/>
                 </div>
                 <div id="header-link-bottom">
-                    <a href="aboutus">About Us</a>
-                    <a href="contactus">Contact Us</a>
+                    <Link to="aboutus">About Us</Link>
+                    <Link to="contactus">Contact Us</Link>
                 </div>
             </div>
         </div>

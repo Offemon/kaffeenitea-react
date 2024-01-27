@@ -20,8 +20,6 @@ const router = createBrowserRouter([
     path: "contactus",
     element: <ContactUsPage/>
   }
-
-
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
