@@ -7,7 +7,6 @@ import { useParams } from "react-router-dom"
 import './itemdetails.css'
 const ItemDetailsPage = () => {
     const params = useParams()
-    // const item = data.find(item=>data.id === params)
     const item = data.find(item=>item.id == params.id)
     const [qty, setQty] = useState(1)
     const [size,setSize] = useState("demi")
