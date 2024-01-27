@@ -80,7 +80,7 @@ img#item-preview{
     border: 1px solid #483124;
 }
 
-#body #item-order-detail #item-purch-detail-container #item-purch-details #item-actions-container #dec-inc-qty-container button,span{ 
+#body #item-order-detail #item-purch-detail-container #item-purch-details #item-actions-container #dec-inc-qty-container button,span#item-amount{ 
     height: 50px;
     width: 50px;
     font-family: 'Roboto';
