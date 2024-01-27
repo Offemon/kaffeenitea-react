@@ -1,5 +1,6 @@
 #body{
-    max-width: 1490px;
+    width: fit-content;
+    width: -moz-fit-content;
     margin-left: auto;
     margin-right: auto;
     color: #483124;
@@ -15,20 +16,26 @@
     margin-top: 57px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
 }
 #item-photo{
-    width: 926px;
+    width: fit-content;
+    width: -moz-fit-content;
     text-align: center;
 }
 
 img#item-preview{
-    width: 451px;
-    height: 677px;
+    width: 320px;
+    height: 576px;
+    object-fit: cover;
 }
 
 #item-purch-detail-container{
     width: 564px;
+    margin: auto;
 }
 
 #body #item-order-detail #item-purch-detail-container h2,p,label{
@@ -80,7 +87,7 @@ img#item-preview{
     border: 1px solid #483124;
 }
 
-#body #item-order-detail #item-purch-detail-container #item-purch-details #item-actions-container #dec-inc-qty-container button,span#item-amount{ 
+#dec-inc-qty-container button,span#item-amount{ 
     height: 50px;
     width: 50px;
     font-family: 'Roboto';
@@ -90,13 +97,13 @@ img#item-preview{
     color: #483124;
 }
 
-#body #item-order-detail #item-purch-detail-container #item-purch-details #item-actions-container #dec-inc-qty-container span#item-amount{ 
+span#item-amount{ 
     display: block;
     width: 50px;
     text-align: center;
 }
 
-#body #item-order-detail #item-purch-detail-container #item-purch-details #item-actions-container label{
+#item-actions-container label{
     font-size: 20px;
     font-weight: 400;
     font-family: 'Roboto';
@@ -104,13 +111,13 @@ img#item-preview{
 
 
 /* Add to cart and Buy Button Section */
-#body #item-order-detail #item-purch-detail-container #item-purch-details #item-actions-container #add-buy-button-container{
+#add-buy-button-container{
     display: flex;
     justify-content:space-between;
     width: 100%;
 }
 
-#body #item-order-detail #item-purch-detail-container #item-purch-details #item-actions-container #add-buy-button-container button{
+#add-buy-button-container button{
     width: 187px;
     height: 72px;
     font-family: 'Mali';
@@ -120,18 +127,18 @@ img#item-preview{
     cursor: pointer;
 }
 
-#body #item-order-detail #item-purch-detail-container #item-purch-details #item-actions-container #add-buy-button-container #add-to-cart-btn{
+#add-to-cart-btn{
     background-color: white;
 }
 
-#body #item-order-detail #item-purch-detail-container #item-purch-details #item-actions-container #add-buy-button-container #buy-btn{
+#buy-btn{
     background-color: #483124;
     color: white;
 }
 
 
 /* Item Description section */
-#body #item-order-detail #item-purch-detail-container #item-purch-details #item-desc-container{
+#item-desc-container{
     width: 484px;
     margin-left: auto;
     margin-right: auto;
@@ -139,13 +146,13 @@ img#item-preview{
     margin-bottom: 40px;
 }
 
-#body #item-order-detail #item-purch-detail-container #item-purch-details #item-desc-container h3{
+#item-desc-container h3{
     margin-top: 0;
     font-size: 32px;
     font-weight: 700;
 }
 
-#body #item-order-detail #item-purch-detail-container #item-purch-details #item-desc-container p{
+#item-desc-container p{
     font-size: 24px;
     font-weight: 400;
 }
@@ -154,12 +161,14 @@ img#item-preview{
 /* Recommended items section */
 #reco-container{
     display: flex;
-    width: 100%;
+    width: fit-content;
+    width: -moz-fit-content;
     padding-top: 28px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     gap: 42px;
+    margin: auto;
 }
 
 .item-card{
@@ -167,6 +176,7 @@ img#item-preview{
     height: 470px;
     border: 1px solid #483124;
     text-align: center;
+
 }
 
 .item-card img,p,button{

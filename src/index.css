@@ -285,6 +285,7 @@ hr{
     margin: auto;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 15px;
 }
 
@@ -298,6 +299,7 @@ hr{
 #contact-input-details-container{
     display: flex;
     justify-content: space-between;
+    gap: 40px;
 }
 
 #contact-input-details-container #inputs-container{
