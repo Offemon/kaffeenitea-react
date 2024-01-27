@@ -1,11 +1,12 @@
 import "./header.css"
 import cart from "/shopping_basket.svg"
 import burgerMenu from "/Burger Menu.svg"
+import { Link } from "react-router-dom"
 
 const PageHeader = () => {
     return (
         <div name="header" id="header">
-            <h1><a href="/" className="home-button">Kaffeenitea</a></h1>
+            <h1><Link to="/" className="home-button">Kaffeenitea</Link></h1>
                 <img src={burgerMenu} alt=""/>
             <div id="header-links">
                 <div id="header-link-top">
