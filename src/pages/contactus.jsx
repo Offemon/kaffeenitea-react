@@ -43,7 +43,6 @@ const ContactUsPage = () => {
             </div>
             <PageFooter/>
         </>
-
     )
 }
 
